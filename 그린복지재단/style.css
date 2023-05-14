@@ -181,6 +181,24 @@ header .inner .wrap .gnb{
 }
 #content>.inner .banner{
     flex: 1;
+    position: relative;
+    overflow: hidden;
+}
+#content>.inner .banner a{
+    position: absolute;
+}
+#content>.inner .banner p{
+    position: absolute;
+    background-color: #c0bfbf;
+    border-radius: 10px;
+    height: 90px;
+    text-align: center;
+    font: bold 20px/30px '애플 고딕';
+    color: #111a68;
+    width: 300px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 footer{
